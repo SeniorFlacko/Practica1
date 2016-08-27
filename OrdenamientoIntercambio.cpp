@@ -24,6 +24,7 @@ int main(int argc, char const *argv[])
 	uswtime(&utime1, &stime1, &wtime1);
 	printf("El arreglo ordendo es:\n");
 	imprimirArreglo(a,n);
+	//
 	printf("\n");
 	printf("Cálculo del tiempo de ejecución del programa\n");
 	printf("real (Tiempo total)  %.10f s\n",  wtime1 - wtime0);
